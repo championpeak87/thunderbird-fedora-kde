@@ -342,7 +342,7 @@ popd
 # KDE patches
 %patch2000 -p1 -b .fix-wayland-build
 %patch2002 -p1 -b .fix_csd_window_buttons
-%patch2003 -p1 -b .mozilla-kde
+#%patch2003 -p1 -b .mozilla-kde
 %patch2001 -p1 -b .unity-menubar
 
 %if %{official_branding}
