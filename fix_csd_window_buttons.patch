@@ -1,0 +1,13 @@
+diff --git a/browser/base/content/browser.css b/browser/base/content/browser.css
+index b8cdd7effa..8749971a27 100644
+--- a/browser/base/content/browser.css
++++ b/browser/base/content/browser.css
+@@ -353,7 +353,7 @@ toolbar[customizing] #whats-new-menu-button {
+ }
+ 
+ #toolbar-menubar[autohide="true"]:not([inactive]) + #TabsToolbar > .titlebar-buttonbox-container {
+-  visibility: hidden;
++  visibility: visible;
+ }
+ 
+ :root[tabsintitlebar] .titlebar-buttonbox {
